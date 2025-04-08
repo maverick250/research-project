@@ -5,3 +5,5 @@ This project proposes a Bayesian nonparametric framework for clustering and gene
 
 Evaluation on synthetic datasets demonstrates that the model successfully captures broad clustering patterns and is capable of generating realistic synthetic time series, albeit with some limitations: threshold-based feature allocations often lead to oversimplified “all-on” or “all-off” usage, and certain parameters (e.g., process noise) are overestimated, reducing clustering accuracy (Adjusted Rand Index ≈ 0.35). Posterior predictive checks show moderate performance for most time series but underestimate high-variance behaviors. Future work includes refining prior specifications, exploring more robust inference methods, and testing on complex real-world data to fully exploit the model’s flexibility and improve its feature-allocation fidelity.
 
+## Full Report
+For a comprehensive overview and detailed methodology, [download the full PDF report](./Masters_Degree_Research_Project_Report.pdf).
